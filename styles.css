@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background: #222;
+  color: #eee;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.faq-answer {
+  display: none;
+}

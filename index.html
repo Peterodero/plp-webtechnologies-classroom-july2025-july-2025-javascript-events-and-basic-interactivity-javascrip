@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Pages Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Interactive Web Page </h1>
+    <button id="themeToggle"> Toggle Dark Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>Counter</h2>
+      <button id="decrement">-</button>
+      <span id="count">0</span>
+      <button id="increment">+</button>
+    </section>
+
+    <section>
+      <h2>FAQ</h2>
+      <div class="faq-item">
+        <h3 class="faq-question">What is JavaScript?</h3>
+        <p class="faq-answer">JavaScript is the language of the web for interactivity!</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Sign Up Form</h2>
+      <form id="signupForm">
+        <label>Name: <input type="text" id="name"></label>
+        <span class="error" id="nameError"></span><br><br>
+
+        <label>Email: <input type="email" id="email"></label>
+        <span class="error" id="emailError"></span><br><br>
+
+        <label>Password: <input type="password" id="password"></label>
+        <span class="error" id="passwordError"></span><br><br>
+
+        <button type="submit">Register</button>
+      </form>
+      <p id="formMessage"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
